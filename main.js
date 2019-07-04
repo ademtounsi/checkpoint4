@@ -1,0 +1,20 @@
+$(document).ready(function()
+{
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+
+    $("#button").click(function(){
+            $("#first").toggle();
+    });
+$("button").click(function(){
+    $("#first").fadeOut();
+    $("#second").fadeOut("slow");
+    $("#third").fadeOut(3000);
+});
+$("main").click(function(){
+$("chuld").slidedown("slow");
+});
